@@ -1,0 +1,185 @@
+/* Include config */
+/* line 5, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Number of Columns */
+/*
+$color-default: #0;
+*/
+/* line 4, ../sass/style.scss */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f5f3ef;
+  line-height: 1.5em;
+  color: #666;
+}
+
+/* line 11, ../sass/style.scss */
+a {
+  color: #1f2c36;
+  text-decoration: none;
+}
+
+/* line 16, ../sass/style.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 20, ../sass/style.scss */
+header {
+  height: 130px;
+  background: #1f2c36;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* line 27, ../sass/style.scss */
+.logo {
+  padding-top: 20px;
+}
+
+/* line 31, ../sass/style.scss */
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+  overflow: auto;
+}
+
+/* line 38, ../sass/style.scss */
+section {
+  float: right;
+  width: 80%;
+  padding: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* line 46, ../sass/style.scss */
+aside {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* line 54, ../sass/style.scss */
+.gallery img {
+  width: 23%;
+  opacity: 1;
+  transition: all 1s;
+}
+
+/* line 60, ../sass/style.scss */
+.gallery img:hover {
+  background: #fff;
+  opacity: 0.5;
+  transition: all 1s;
+}
+
+/* line 66, ../sass/style.scss */
+nav a {
+  line-height: 2.2em;
+  padding: 10px 20px;
+}
+
+/* line 71, ../sass/style.scss */
+nav a.active {
+  background: #1f2c36;
+  color: #fff;
+}
+
+/* line 76, ../sass/style.scss */
+nav a:hover {
+  background: #ccc;
+}
+
+/* line 80, ../sass/style.scss */
+footer {
+  height: 40px;
+  background: #1f2c36;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+  /* line 1, ../sass/_mobile.scss */
+  .container {
+    width: 95%;
+  }
+
+  /* line 5, ../sass/_mobile.scss */
+  section, aside {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 10, ../sass/_mobile.scss */
+  .gallery img {
+    width: 49%;
+  }
+}

@@ -215,6 +215,8 @@ body {
   line-height: 1.72222;
   color: #34495e;
   background-color: #ffffff;
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
 }
 a {
   color: #34495e;

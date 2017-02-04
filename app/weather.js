@@ -40,22 +40,92 @@ function loadWeather(location, woeid) {
 //LOGIC FOR CLOTHING
 
 if (weather.temp >= 40) {
-  clothing = '          <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/image1.jpg"><img width="200px" src="img/image1.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/image2.jpg"><img width="200px" src="img/image2.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/image3.jpg"><img width="200px" src="img/image3.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/image4.jpg"><img width="200px" src="img/image4.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/image5.jpg"><img width="200px" src="img/image5.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/image6.jpg"><img width="200px" src="img/image6.jpg"/></a>';
+
+  clothing = '<table>  \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale1.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale2.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachmale3.jpg"><img width="200px" src="img/clothes/beachparty/beachmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale1.jpg"><img width="200px" src="img/clothes/interview/interviewfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale2.jpg"><img width="200px" src="img/clothes/interview/interviewfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale3.jpg"><img width="200px" src="img/clothes/interview/interviewfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale1.jpg"><img width="200px" src="img/clothes/interview/interviewmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale2.jpg"><img width="200px" src="img/clothes/interview/interviewmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale3.jpg"><img width="200px" src="img/clothes/interview/interviewmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale1.jpg"><img width="200px" src="img/clothes/presentarion/presentationfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale2.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale3.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale1.jpg"><img width="200px" src="img/clothes/presentation/presentationmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale2.jpg"><img width="200px" src="img/clothes/presentation/presentationmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale3.jpg"><img width="200px" src="img/clothes/presentation/presentationmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale1.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale2.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale3.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale1.jpg"><img width="200px" src="img/clothes/wedding/weddingmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale2.jpg"><img width="200px" src="img/clothes/wedding/weddingmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale3.jpg"><img width="200px" src="img/clothes/wedding/weddingmale3.jpg"/></a> \
+                        </table>';
+ if ( userGender = "male" ) {
+          clothing = '<table>  \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale1.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale2.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachmale3.jpg"><img width="200px" src="img/clothes/beachparty/beachmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale1.jpg"><img width="200px" src="img/clothes/interview/interviewfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale2.jpg"><img width="200px" src="img/clothes/interview/interviewfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale3.jpg"><img width="200px" src="img/clothes/interview/interviewfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale1.jpg"><img width="200px" src="img/clothes/interview/interviewmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale2.jpg"><img width="200px" src="img/clothes/interview/interviewmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale3.jpg"><img width="200px" src="img/clothes/interview/interviewmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale1.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale2.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale3.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale1.jpg"><img width="200px" src="img/clothes/presentation/presentationmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale2.jpg"><img width="200px" src="img/clothes/presentation/presentationmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale3.jpg"><img width="200px" src="img/clothes/presentation/presentationmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale1.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale2.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale3.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale1.jpg"><img width="200px" src="img/clothes/wedding/weddingmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale2.jpg"><img width="200px" src="img/clothes/wedding/weddingmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale3.jpg"><img width="200px" src="img/clothes/wedding/weddingmale3.jpg"/></a> \
+                        </table>';
+    }
+     if ( userGender = "female" ) {
+          clothing = '<table>  \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale1.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachfemale2.jpg"><img width="200px" src="img/clothes/beachparty/beachfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="img/clothes/beachparty/beachmale3.jpg"><img width="200px" src="img/clothes/beachparty/beachmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale1.jpg"><img width="200px" src="img/clothes/interview/interviewfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale2.jpg"><img width="200px" src="img/clothes/interview/interviewfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewfemale3.jpg"><img width="200px" src="img/clothes/interview/interviewfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale1.jpg"><img width="200px" src="img/clothes/interview/interviewmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale2.jpg"><img width="200px" src="img/clothes/interview/interviewmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="img/clothes/interview/interviewmale3.jpg"><img width="200px" src="img/clothes/interview/interviewmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale1.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale2.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationfemale3.jpg"><img width="200px" src="img/clothes/presentation/presentationfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale1.jpg"><img width="200px" src="img/clothes/presentation/presentationmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale2.jpg"><img width="200px" src="img/clothes/presentation/presentationmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="img/clothes/presentation/presentationmale3.jpg"><img width="200px" src="img/clothes/presentation/presentationmale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale1.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale2.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingfemale3.jpg"><img width="200px" src="img/clothes/wedding/weddingfemale3.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale1.jpg"><img width="200px" src="img/clothes/wedding/weddingmale1.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale2.jpg"><img width="200px" src="img/clothes/wedding/weddingmale2.jpg"/></a> \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="img/clothes/wedding/weddingmale3.jpg"><img width="200px" src="img/clothes/wedding/weddingmale3.jpg"/></a> \
+                        </table>';
+    }
   $(".clothing").html(clothing).show();
 };
 
-if (weather.temp < 40) {
-  clothing = '          <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
+if (weather.temp < 40) { 
+  clothing = '          <table>  \
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category1" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
                         <a class="fancybox" data-fancybox-group="gallery" data-filter="category2" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
                         <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
                         <a class="fancybox" data-fancybox-group="gallery" data-filter="category3" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
                         <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
-                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a>';
+                        <a class="fancybox" data-fancybox-group="gallery" data-filter="category4" href="images/clothing/santa-claus-08.jpg"><img width="200px" src="images/clothing/santa-claus-08.jpg"/></a> \
+                        </table>';
   $(".clothing").html(clothing).show();
 };
 

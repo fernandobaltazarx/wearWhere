@@ -12,6 +12,8 @@ body, html {
 	height: 100%;
 	width: 100%;
 	overflow-x:hidden;
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
 }
 
 ::-moz-selection{background:#1abc9c;color:white}
